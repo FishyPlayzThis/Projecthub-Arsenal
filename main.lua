@@ -39,7 +39,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bitef
 local Window = Library.CreateLib("Zynex | Arsenal | v1.6 ", "BlueTheme")
 
 local Welcome = Window:NewTab("Main")
-local MainSection = Welcome:NewSection("Welcome To AdvanceTech | " .. game.Players.LocalPlayer.Name)
+local MainSection = Welcome:NewSection("Welcome To Zynex | " .. game.Players.LocalPlayer.Name)
 
 local HitboxSection = Welcome:NewSection("> Hitbox Settings <")
 
