@@ -1,7 +1,3 @@
--- Type shit arsenal
--- Some are scripts were modify to be toggleable :3
-
--- ALSO im sorry if this arsenal script have messy codes in it, I will try to make it organized in the future if im not lazy. 
 
 
 
@@ -9,14 +5,14 @@
 
 local CoreGui = game:GetService("StarterGui")
 CoreGui:SetCore("SendNotification", {
-  Title = "Projectware Arsenal",
+  Title = "Zynex",
   Text = "Working For Mobile and PC Executor",
   Duration = 8,
 })
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
   Title = "Modify By:",
-  Text = "Projectware arsenal",
+  Text = "Zynex",
   Icon = "",
   Duration = 8,
 })
@@ -40,7 +36,7 @@ game:GetService("RunService").Heartbeat:connect(function(step)if flying and c an
 
 
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bitef4/Recode/main/UI/Kavo_1.lua"))()
-local Window = Library.CreateLib("Projectware | Arsenal | v1.6 ", "BlueTheme")
+local Window = Library.CreateLib("Zynex | Arsenal | v1.6 ", "BlueTheme")
 
 local Welcome = Window:NewTab("Main")
 local MainSection = Welcome:NewSection("Welcome To AdvanceTech | " .. game.Players.LocalPlayer.Name)
